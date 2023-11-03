@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-169897051
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/hacdev/cp2yerzb-tenant/test-app-169897051/go-169897051@sha256:5ca12e5ea628b18291846eeef9783e0aa621169de867631be5a6115dec2c9f4c
+        name: my-go
+        resources: {}
+status: {}
